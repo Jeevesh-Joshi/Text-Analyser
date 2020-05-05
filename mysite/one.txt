@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('https://wallpapercave.com/wp/wp1904597.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* position: absolute;
+            width: 100%;
+            height:100vh;
+            top: 0;
+            left: 0;
+            z-index: -1; */
+
+        }
+
+        h1 img{
+            /* background-color: rgba(149, 172, 67, 0.67);
+            border: 2px solid darkolivegreen; */
+            display: block;
+            margin-top: 70px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+            height: 100px;
+        }
+
+        .colo0 {
+            background-color: rgba(245, 222, 179, 0.438);
+            margin-top: 18px;
+            color: rgba(231, 9, 9, 0.781);
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .colo2 {
+            /* clear: both; */
+            float: left;
+            position: relative;
+            display: block;
+            color: rgb(0, 0, 0);
+            background-color: rgba(250, 186, 68, 0.568);
+            text-align: justify;
+            font-style: italic;
+            border-radius: 10px;
+            margin: 20px;
+            height: 255px;
+            width: 200px;
+            padding: 10px;
+            margin-left: 30px;
+            /* margin-right: auto; */
+            border: 2px solid rgb(109, 81, 19);
+        }
+
+        .colo3 {
+            clear: both;
+            float: left;
+            font-size: 18px;
+            margin: 30px;
+            margin-top: 20px;
+            padding: 10px;
+            margin-left: 50px;
+            font-family: monospace;
+            background-color: rgba(105, 162, 172, 0.699);
+            border-radius: 10px;
+            width: 650px;
+            height: 395px;
+            border: 10px solid rgba(94, 136, 252, 0.301);
+        }
+
+        a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(255, 255, 255)
+        }
+
+        /*
+        a:visited {
+            color: rgba(65, 4, 105, 0.644);
+        } */
+
+        .btn {
+
+            float: right;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: monospace;
+            background-color: rgba(185, 228, 84, 0.644);
+            border: 2px solid rgba(86, 104, 7, 0.699);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: rgb(255, 255, 255);
+        }
+
+        .container {
+            float: right;
+            clear: right;
+        }
+
+        .navbar {
+            display: block;
+            position: fixed;
+            top: 0px;
+            width: 1520px;
+            height: auto;
+            background-color: rgba(201, 184, 184, 0.548);
+        }
+
+        .navbar ul {
+            padding-left: 0px;
+            overflow: auto;
+        }
+
+        .navbar li a:hover {
+            color: white;
+        }
+
+        .navbar li {
+            position: relative;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 15px;
+            float: left;
+            list-style: none;
+            padding: 10px;
+            padding-top: 16px;
+            left: 600px;
+        }
+
+        .navbar input {
+            float: right;
+            margin: 10px;
+            border-radius: 10px;
+            padding: 5px;
+            margin-right: 12px;
+            width: 200px;
+            font-family: monospace;
+            background-color: rgba(245, 222, 179, 0.616);
+
+        }
+
+        .sicon {
+            float: right;
+            padding-top: 18px;
+            width: 17px;
+            height: 30px;
+            position: absolute;
+            right: 21px;
+        }
+
+        .logo {
+            position: absolute;
+            clear: both;
+            float: left;
+            top: 2px;
+            left: 2px;
+            height: 45px;
+            width: 45px;
+            /* filter: invert(100%); */
+        }
+
+        form ul li {
+            margin: 10px;
+            margin-left: 30px;
+        }
+
+        .video {
+            background-color: rgba(0, 0, 0, 0.397);
+            border-radius: 10px;
+            padding: 10px;
+            float: right;
+            margin-top: 5px;
+            margin-right: 60px;
+            margin-bottom: 30px;
+        }
+
+        .main {
+            overflow: auto;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">Feedback</a></li>
+                <div class="search">
+                    <img class="logo" src="a76c6a94-82cc-4edf-ae10-0423d9515710_200x200.png">
+                    <input type="text" name="mySearch" id="search" placeholder="Search Here">
+                    <img class="sicon"
+                        src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon-by-vexels.png">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <h1><img src="full-lockup-white-consulting.png" alt=""></h1>
+    <h2 class="colo0">Registration Portal</h2>
+    <br>
+    <form action="django.php" class="colo3">
+        <ul>
+            <li>
+                <div>
+                    <label for="name"> Name:</label>
+                    <input type="text" name="myName" id="name">
+                </div>
+            </li>
+            <br>
+            <li>
+                <div>
+                    About : Id-<input type="number" name="myid"> Branch-<input type="text" name="mybranch">
+                </div>
+            </li>
+            <br>
+            <li>
+                <div>
+                    <label for="Gender">Gender:</label>
+                    Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+                    Other <input type="radio" name="myGender" id="Gender">
+                </div>
+            </li>
+            <br>
+
+            <li>
+                <div>
+                    <label for="side">Year: </label>
+                    <select name="my side" id="side"
+                        style="background-color: rgba(41, 92, 233, 0.432); font-family: monospace; font-weight: bold;">
+                        <option value="1">Final Year</option>
+                        <option value="2">Third Year</option>
+                        <option value="1">Second Year</option>
+                        <option value="2">First Year</option>
+                    </select>
+                </div>
+            </li>
+            <br>
+            <li>
+                <div>
+                    <strong>I accept the terms & conditions. </strong> <input type="checkbox" name="my eligibility">
+                </div>
+            </li>
+            <br>
+            <div style="text-align: center;">
+                <input type="submit" value="Register" class="btn">
+                <input type="reset" value="Reset" class="btn">
+            </div>
+        </ul>
+    </form>
+    <br>
+    <iframe class=video width="660" height="400" src="https://www.youtube-nocookie.com/embed/vD_qtst2WBk"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <div class="main">
+        <div class="colo2">
+            Counter-Strike: Global Offensive is a multiplayer first-person shooter video game developed by Valve and
+            Hidden Path Entertainment. It is the fourth game in the Counter-Strike series and was released for Windows,
+            OS X, Xbox 360, and PlayStation 3 in August 2012, while the Linux version was released in 2014.
+        </div>
+
+        <div class="colo2">
+            PlayerUnknown's Battlegrounds is an online multiplayer battle royale game developed and published by PUBG
+            Corporation, a subsidiary of South Korean video game company Bluehole.Battlegrounds is a player versus
+            player shooter game in which up to one hundred players fight in a battle royale.
+        </div>
+
+        <div class="colo2">
+            The Fédération Internationale de Football Association is a non-profit organization which describes itself as
+            an international governing body of association football, fútsal, beach soccer, and efootball. It is the
+            highest governing body of football.
+        </div>
+
+        <div class="colo2">
+            Need for Speed is a racing video game franchise published by Electronic Arts and currently developed by
+            Criterion Games. The series centers around illicit street racing and in general tasks players to complete
+            various types of races while evading the local law enforcement in police pursuits.
+        </div>
+
+        <div class="colo2">
+            Pocket Tanks is a 1–2 player computer game by Michael P. Welch from Blitwise Productions. Adapted from
+            Michael Welch's earlier Amiga game Scorched Tanks, Pocket Tanks features modified physics, hundreds of
+            weapons ranging from simple explosive shells to homing missiles.
+        </div>
+
+        <div class="colo2">
+            Coding theory is the study of the properties of codes and their respective fitness for specific
+            applications. Codes are used for data compression, cryptography, error detection and correction, data
+            transmission and data storage.
+        </div>
+    </div>
+    <div class="container">
+        <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" class="btn"
+            target="_blank">Read More</a>
+        <button class="btn">Contact Us</button>
+    </div>
+</body>
+
+</html>

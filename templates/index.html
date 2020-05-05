@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Backend_Tutorials</title>
+</head>
+<body style="background-color: rgb(222,213,212);">
+    <h1 style="margin:1rem auto; background-color:rgb(152,73,80,0.5); font-family:arial; width:fit-content; border-radius:1rem;">
+        WELCOME TO ANALYZER
+    </h1>
+<form action= '/analyze' method="post">
+    {% csrf_token %}
+    <textarea name="text" style="height: 140px; width: 100%; margin: 0px;" placeholder="Enter your Text Here"></textarea>
+    <br>
+    <div style="font-size:2rem; font-family:arial; padding:1rem 0;">
+    Remove Punctuations: <input type="checkbox" name="rmvpnc">
+    <br>
+    Uppercase: <input type="checkbox" name="uppercase">
+    <br>
+    Remove extra spaces: <input type="checkbox" name="extraspaceremover">
+    </div>
+    <div style="width:fit-content; margin:2rem auto;">
+    <button type="submit" style="height:2rem; width:fit-content; background-color:rgb(45,24,46,0.8);color:white;">ANALYZE</button>
+    </div>
+</form>
+</body>
+</html>
